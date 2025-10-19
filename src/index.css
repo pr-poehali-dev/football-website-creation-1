@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+@font-face {
+  font-family: "Druk Wide";
+  src: url("https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/inter/Inter-Black.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -97,5 +107,13 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .font-druk {
+    font-family: "Druk Wide", "Roboto", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
 }
