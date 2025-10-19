@@ -23,10 +23,17 @@ export default {
 			},
 			colors: {
 				sport: {
-					blue: '#0EA5E9',
-					dark: '#1A1F2C',
-					purple: '#8B5CF6',
-					orange: '#F97316',
+					green: {
+						dark: '#0D3B2E',
+						DEFAULT: '#1A5C47',
+						light: '#2D7A5F',
+					},
+					red: {
+						dark: '#8B1F1F',
+						DEFAULT: '#C92A2A',
+						light: '#E03131',
+					},
+					black: '#0A0F0D',
 				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
